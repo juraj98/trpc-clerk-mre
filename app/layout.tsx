@@ -1,6 +1,6 @@
 import "./globals.css";
 import { TRPCReactProvider } from "../trpc/react";
-import { ClerkProvider, SignInButton, UserButton } from "@clerk/nextjs";
+import { ClerkProvider, UserButton } from "@clerk/nextjs";
 
 export default function RootLayout({
   children,
